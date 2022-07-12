@@ -20,4 +20,8 @@ public class GroupsTest {
 	public void Test4() {
 		System.out.println("Test4");
 	}
+	@Test(groups="Regression")
+	public void Test5() {
+		System.out.println("Test5");
+	}
 }
